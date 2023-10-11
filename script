@@ -69,10 +69,10 @@ passwd
 useradd -m -g users -G wheel,storage,power -s /bin/bash nomedousuario
 
 passwd nomedousuario
-
+ 
 pacman -S dosfstools os-prober mtools network-manager-applet networkmanager wpa_supplicant wireless_tools dhcpd
 
-pacman -S dialog alacritty composer curl firefox gdb git jdk-openjdk php python wget which zathura libre-office 
+pacman -S dialog alacritty composer curl firefox gdb git jdk-openjdk php php-apache phpmyadmin python wget which zathura libre-office apache mariadb
 
 pacman -S grub efibootmgr
 
